@@ -2,20 +2,8 @@
 layout: home
 ---
 
-<div class="posts clearfix">
-    {% for post in site.posts %}
-    <article class="post">
-        <div class="eyebrow">{{ post.date | date: "%B %Y" }}</div>
-        <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-        <div class="entry">
-            <p>{{ post.desc }}</p>
-            <a href="{{ site.baseurl }}{{ post.url }}" class="small-link">
-                <img src="{{ post.image }}" />
-            </a>
-        </div>
-
-        <a href="{{ site.baseurl }}{{ post.url }}" class="small-link">Read details</a>
-    </article>
-    {% endfor %}
+<div class="home">
+    <img src="/images/full.png" />
+    <a class="link1" href="/about/">about</a>
+    <a class="link2" href="/projects/">projects</a>
 </div>

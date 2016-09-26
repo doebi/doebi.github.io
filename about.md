@@ -1,8 +1,6 @@
 ---
-layout: post
-title: "Holzbau Video"
-date: 2013-06-30
-image: http://doeberl.at/cv/images/Holzbau.png
+layout: page
+title: "Christoph Döberl"
 ---
 
 some test blog post with **markdown**, oh *fancy*

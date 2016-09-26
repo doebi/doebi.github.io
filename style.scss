@@ -38,10 +38,6 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.25;
     margin: 0;
     padding: 0;
-
-    @include mobile {
-        line-height: 1.4;
-    }
 }
 
 h1 {
@@ -55,26 +51,16 @@ h1 {
     }
 }
 
-.post h1 {
-    font-size: 60px;
-    letter-spacing: -.03em;
-    line-height: 1.1;
-}
-
-#home .post {
+.post {
     width: 220px;
     float: left;
     vertical-align: top;
-    margin: 0 20px 0 0;
+    margin: 0 10px 0 10px;
     height: 360px;
     overflow: hidden;
-    @include mobile {
-        margin: 0 20px;
-        width: 300px;
-    }
 }
 
-#home .post h1 {
+.post h1 {
     font-size: 24px;
     line-height: 1.2;
     min-height: 60px;
@@ -83,7 +69,7 @@ h1 {
     font-weight: 700;
 }
 
-#home h1.site-name {
+h1.site-name {
     font-size: 72px;
     line-height: 74px;
     font-weight: 700;
@@ -93,9 +79,6 @@ h1 {
     letter-spacing: -.03em;
     a {
         color: $darkGray;
-    }
-    @include mobile {
-        margin: 30px 20px 0;
     }
 }
 
@@ -119,17 +102,15 @@ p {
     margin: 15px 0;
 }
 
-#home p.site-description {
+p.site-description {
     font-size: 30px;
     font-weight: 300;
     line-height: 40px;
-    max-width: 310px;
+    margin-top: 80px;
     margin-bottom: 120px;
-    @include mobile {
-        margin: 30px 20px 60px 20px;
-    }
 }
-#home .entry p {
+
+.entry p {
     color: $gray;
 }
 
@@ -218,11 +199,9 @@ img {
     min-height: 600px;
 }
 .masthead {
+    margin: 0 10px 0 10px;
     padding: 20px 0 0;
-    border-bottom: 1px solid $lightGray;
-    @include mobile {
-        text-align: center;
-    }
+    border-bottom: 1px solid $medGray;
 }
 
 .site-avatar {
@@ -231,11 +210,6 @@ img {
     height: 50px;
     margin-right: 15px;
     margin-bottom: 15px;
-    @include mobile {
-        float: none;
-        display: block;
-        margin: 0 0 0 10px;
-    }
 
     img {
         border-radius: 26px;
@@ -244,12 +218,6 @@ img {
 
 .site-info {
     float: left;
-
-    @include mobile {
-        float: none;
-        display: block;
-        margin: 0 auto;
-    }
 }
 
 .site-name {
@@ -265,10 +233,6 @@ img {
     margin: -5px 0 0 0;
     font-size: 14px;
     font-family: $helveticaNeue;
-
-    @include mobile {
-        margin: 3px 0;
-    }
 }
 
 nav {
@@ -277,33 +241,11 @@ nav {
     font-family: $helveticaNeue;
     font-size: 12px;
 
-    @include mobile {
-        float: none;
-        margin-top: 9px;
-        display: block;
-    }
-
     a {
         margin-left: 20px;
         color: $gray;
-        width: 225px;
         display: block;
         float: right;
-
-        @include mobile {
-            display: inline-block;
-            float: none;
-            margin: 0 10px;
-            color: $darkGray;
-            width: 150px;
-            text-align: left;
-        }
-    }
-}
-
-article {
-    @include mobile {
-        margin: 0 20px;
     }
 }
 
@@ -353,10 +295,38 @@ article {
     }
 }
 
+.home {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    position: relative;
+
+    a {
+        color: black;
+        font-weight: bold;
+        font-size: 18pt;
+        &:hover {
+            color: $darkGray;
+        }
+    }
+
+    .link1 {
+        position: absolute;
+        bottom: 100px;
+        right: 20px;
+    }
+
+    .link2 {
+        position: absolute;
+        bottom: 70px;
+        right: 20px;
+    }
+}
+
+
 .wrapper-footer {
     margin-top: 50px;
-    border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
     background-color: $lightGray;
 }
 
