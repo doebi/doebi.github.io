@@ -1,9 +1,15 @@
 <div class="wrapper-masthead">
     <div class="container">
         <header class="masthead clearfix">
-            <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" alt="{{ site.name }}" /></a>
+            <a href="{{ site.baseurl }}/" class="site-avatar">
+                <img src="{{ site.avatar }}" alt="{{ site.name }}" />
+            </a>
             <nav>
+                {% if page.about %}
+                <a href="{{ site.baseurl }}/projects">Projects</a>
+                {% else %}
                 <a href="{{ site.baseurl }}/about">Christoph Döberl</a>
+                {% endif %}
             </nav>
         </header>
     </div>
