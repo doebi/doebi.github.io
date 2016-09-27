@@ -29,8 +29,14 @@ $normal: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 
 // Mobile breakpoints
-@mixin mobile {
+@mixin phone {
   @media screen and (max-width: 640px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media screen and (max-width: 1000px) {
     @content;
   }
 }
