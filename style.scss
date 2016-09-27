@@ -389,6 +389,9 @@ footer {
 
     .blank {
         height: 200px;
+        @include mobile {
+            height: 50px;
+        }
     }
 }
 
