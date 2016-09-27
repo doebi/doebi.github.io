@@ -291,6 +291,11 @@ nav {
     overflow: hidden;
     margin-bottom: 50px;
 
+    .description {
+        font-family: $text;
+        height: 69px;
+    }
+
     img {
         width: 100%;
         height: auto;
