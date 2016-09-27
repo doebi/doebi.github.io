@@ -19,7 +19,7 @@ html {
 
 body {
     background: $white;
-    font: 16px/23px $helveticaNeue;
+    font: 16px/23px $normal;
     color: $gray;
     -webkit-font-smoothing: antialiased;
 }
@@ -34,7 +34,6 @@ body {
 h1, h2, h3, h4, h5, h6 {
     color: $darkAccent;
     font-family: $headline;
-    letter-spacing: 0.06em;
     font-weight: 700;
     line-height: 1.25;
     margin: 0;
@@ -45,9 +44,9 @@ h1 {
     font-size: 60px;
     margin: 60px 0;
     a {
-        color: $accent;
+        color: $darkAccent;
         &:hover, &:active {
-            color: $darkAccent;
+            color: $accent;
         }
     }
 }
@@ -96,6 +95,7 @@ a {
 ul, ol {
     margin: 15px 0;
     padding-left: 30px;
+    font-family: $normal;
 }
 
 ul {
@@ -127,7 +127,7 @@ blockquote {
     margin: 1.8em .8em;
     padding: 0.1em 1em;
     background-color: $xlightGray;
-    font-family: $helveticaNeue;
+    font-family: $normal;
 }
 
 img {
@@ -251,7 +251,7 @@ img {
     margin: 0;
     color: $darkGray;
     cursor: pointer;
-    font-family: $helveticaNeue;
+    font-family: $normal;
     font-weight: 300;
     font-size: 28px;
 }
@@ -259,13 +259,13 @@ img {
 .site-description {
     margin: -5px 0 0 0;
     font-size: 14px;
-    font-family: $helveticaNeue;
+    font-family: $normal;
 }
 
 nav {
     float: right;
     margin-top: 23px;
-    font-family: $helveticaNeue;
+    font-family: $normal;
     font-size: 12px;
     padding-bottom: 5px;
 

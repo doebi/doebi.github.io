@@ -19,13 +19,13 @@ $accent: #50a162;
 $darkAccent: #2b803e;
 
 // Font stacks
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
-
+@import 'https://fonts.googleapis.com/css?family=Oswald:300';
 @import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300';
 @import 'https://fonts.googleapis.com/css?family=Lora';
 
-$headline: 'Open Sans Condensed', sans-serif;
 $text: 'Lora', serif;
+$headline: 'Oswald', sans-serif;
+$normal: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 
 // Mobile breakpoints
