@@ -52,12 +52,23 @@ h1 {
 }
 
 .post {
-    width: 220px;
+    max-width: 220px;
     float: left;
     vertical-align: top;
     margin: 0 10px 0 10px;
-    height: 360px;
     overflow: hidden;
+    height: 360px;
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    @include mobile {
+        margin-top: 20px;
+        max-width: 640px;
+        height: auto;
+    }
 }
 
 .post h1 {
@@ -204,6 +215,11 @@ img {
     border-bottom: 1px solid $medGray;
 }
 
+.banner {
+    height: 30px;
+    margin: 10px;
+}
+
 .site-avatar {
     float: left;
     width: 50px;
@@ -214,6 +230,10 @@ img {
     img {
         border-radius: 26px;
     }
+}
+
+.page {
+    margin: 0 10px 0 10px;
 }
 
 .site-info {
@@ -240,6 +260,7 @@ nav {
     margin-top: 23px;
     font-family: $helveticaNeue;
     font-size: 12px;
+    padding-bottom: 5px;
 
     a {
         margin-left: 20px;

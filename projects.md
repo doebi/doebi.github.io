@@ -1,7 +1,10 @@
 ---
-layout: page
+layout: default
+title: "projects"
+projects: true
 ---
-
+<div class="banner">
+</div>
 <div class="posts clearfix">
     {% for post in site.posts %}
     <article class="post">
