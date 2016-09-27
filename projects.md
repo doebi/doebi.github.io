@@ -8,6 +8,7 @@ projects: true
     <article class="post">
         <div class="eyebrow">{{ post.date | date: "%B %Y" }}</div>
         <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+        <p>lorem ipsum dolor sit amet lorem ipsum dolor sit ametlorem ipsum dolor sit</p>
 
         <div class="entry">
             <a href="{{ site.baseurl }}{{ post.url }}" class="small-link">
