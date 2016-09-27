@@ -19,9 +19,14 @@ $accent: #50a162;
 $darkAccent: #2b803e;
 
 // Font stacks
-$helvetica: Helvetica, Arial, sans-serif;
 $helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$georgia: Georgia, serif;
+
+@import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300';
+@import 'https://fonts.googleapis.com/css?family=Lora';
+
+$headline: 'Open Sans Condensed', sans-serif;
+$text: 'Lora', serif;
+
 
 // Mobile breakpoints
 @mixin mobile {
