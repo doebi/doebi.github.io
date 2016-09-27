@@ -4,6 +4,10 @@ title: "Christoph Döberl"
 about: true
 ---
 
+**TODO:** some text
+
+See my [projects](/projects/) to get an idea of what I am doing.
+
 ### Work Experience
 
 * [**Diaku Ltd**](https://diaku.com), London

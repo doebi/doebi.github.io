@@ -32,8 +32,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
+    color: $darkAccent;
     font-family: $helveticaNeue;
-    color: $darkGray;
     font-weight: 700;
     line-height: 1.25;
     margin: 0;
@@ -48,19 +48,6 @@ h1 {
         &:hover, &:active {
             color: $darkAccent;
         }
-    }
-}
-
-h1.site-name {
-    font-size: 72px;
-    line-height: 74px;
-    font-weight: 700;
-    max-width: 600px;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    letter-spacing: -.03em;
-    a {
-        color: $darkGray;
     }
 }
 
@@ -211,7 +198,7 @@ img {
     }
 
     .current {
-        color: $darkAccent;
+        font-weight: bold;
     }
 }
 
@@ -229,6 +216,11 @@ img {
 
 .page {
     margin: 0 10px 0 10px;
+
+    h1 {
+        font-size: 24px;
+        margin: 48px 0 12px;
+    }
 }
 
 .site-info {
@@ -271,7 +263,7 @@ nav {
     vertical-align: top;
     margin: 0 10px 0 10px;
     overflow: hidden;
-    height: 360px;
+    margin-bottom: 30px;
 
     img {
         width: 100%;
@@ -279,15 +271,12 @@ nav {
     }
 
     @include mobile {
-        margin-bottom: 30px;
         max-width: 640px;
-        height: auto;
     }
 
     h1 {
         font-size: 24px;
         line-height: 1.2;
-        min-height: 60px;
         margin: 0 0 12px;
         letter-spacing: normal;
         font-weight: 700;
