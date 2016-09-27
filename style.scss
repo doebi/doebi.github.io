@@ -381,12 +381,15 @@ nav {
 
 .wrapper-footer {
     margin-top: 50px;
-    background-color: $lightGray;
 }
 
 footer {
     padding: 20px 0;
     text-align: center;
+
+    .blank {
+        height: 200px;
+    }
 }
 
 
