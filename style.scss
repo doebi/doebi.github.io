@@ -44,40 +44,11 @@ h1 {
     font-size: 60px;
     margin: 60px 0;
     a {
-        color: $red;
+        color: $accent;
         &:hover, &:active {
-            color: $darkRed;
+            color: $darkAccent;
         }
     }
-}
-
-.post {
-    max-width: 220px;
-    float: left;
-    vertical-align: top;
-    margin: 0 10px 0 10px;
-    overflow: hidden;
-    height: 360px;
-
-    img {
-        width: 100%;
-        height: auto;
-    }
-
-    @include mobile {
-        margin-top: 20px;
-        max-width: 640px;
-        height: auto;
-    }
-}
-
-.post h1 {
-    font-size: 24px;
-    line-height: 1.2;
-    min-height: 60px;
-    margin: 0 0 12px;
-    letter-spacing: normal;
-    font-weight: 700;
 }
 
 h1.site-name {
@@ -126,11 +97,11 @@ p.site-description {
 }
 
 a {
-    color: $red;
+    color: $accent;
     text-decoration: none;
     cursor: pointer;
     &:hover, &:active {
-        color: $darkRed;
+        color: $darkAccent;
     }
 }
 
@@ -235,12 +206,12 @@ img {
     a {
         color: $gray;
         &:hover {
-            color: $darkRed;
+            color: $darkAccent;
         }
     }
 
     .current {
-        color: $darkRed;
+        color: $darkAccent;
     }
 }
 
@@ -295,6 +266,33 @@ nav {
 }
 
 .post {
+    max-width: 220px;
+    float: left;
+    vertical-align: top;
+    margin: 0 10px 0 10px;
+    overflow: hidden;
+    height: 360px;
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    @include mobile {
+        margin-bottom: 30px;
+        max-width: 640px;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 24px;
+        line-height: 1.2;
+        min-height: 60px;
+        margin: 0 0 12px;
+        letter-spacing: normal;
+        font-weight: 700;
+    }
+
     blockquote {
         margin: 1.8em .8em;
         border-left: 1px dotted $gray;
@@ -320,7 +318,7 @@ nav {
         color: $medGray;
         display: block;
         &:hover {
-            color: $red;
+            color: $accent;
         }
     }
     .large-link {
