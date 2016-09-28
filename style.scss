@@ -300,7 +300,7 @@ nav {
         font-family: $text;
         height: 69px;
         @include phone {
-            height: 46px;
+            height: auto;
         }
     }
 
