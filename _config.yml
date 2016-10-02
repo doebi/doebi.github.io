@@ -44,9 +44,6 @@ markdown: kramdown
 highlighter: rouge
 permalink: /projects/:title/
 
-# The release of Jekyll Now that you're using
-version: v1.0.0
-
 # Set the Sass partials directory, as we're using @imports
 sass:
   sass_dir: _scss
@@ -54,8 +51,6 @@ sass:
 
 # Use the following plug-ins
 gems:
-  - jemoji # Emoji please!
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
 
 # Exclude these files from your production _site
 exclude:
