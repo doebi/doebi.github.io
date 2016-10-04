@@ -216,6 +216,26 @@ img {
     }
 }
 
+.gallery {
+    margin: 0 -10px 0 -10px;
+    img {
+        margin: 10px;
+        width: 220px;
+        float: left;
+        vertical-align: top;
+
+        @include phone {
+            margin: 20px 0 0 0;
+            width: 100%;
+            max-width: 640px;
+        }
+    }
+
+    @include phone {
+        margin: 0px;
+    }
+}
+
 .page {
     font-family: $text;
     margin: 0 10px 0 10px;
