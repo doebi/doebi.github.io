@@ -200,6 +200,15 @@ img {
 /* LAYOUT / SECTIONS */
 /*********************/
 
+table th, td {
+    font-family: $normal;
+    border: 1px solid $lightGray;
+    padding: 5px 10px 5px 10px;
+}
+
+table th {
+    font-weight: bold;
+}
 .content-wrapper {
     min-height: 600px;
 }
