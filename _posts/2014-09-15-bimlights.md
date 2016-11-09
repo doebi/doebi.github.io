@@ -4,6 +4,7 @@ title: bimlights
 date: 2014-09-15
 image: /images/proj-bimlights.png
 description: "physical map with 50 LEDs acting as real-time tram tracker"
+github: "//github.com/doebi/bimlights"
 ---
 
 A map of our local town's tram system to display realtime data.
