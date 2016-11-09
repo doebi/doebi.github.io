@@ -125,11 +125,45 @@ strong, b {
 }
 
 blockquote {
-    margin: 1.8em .8em;
-    padding: 0.1em 1em;
-    background-color: $xlightGray;
-    font-family: $normal;
+    font-family: $text;
+    font-size: 18px;
+    font-style: italic;
+    margin: 0.25em 0;
+    padding: 0 0.25em 0 60px;
+    line-height: 1.45;
+    position: relative;
+    color: $darkGray;
 }
+
+blockquote:before {
+    display: block;
+    content: "\201C";
+    font-size: 80px;
+    position: absolute;
+    left: 0px;
+    top: -20px;
+    color: $gray;
+}
+
+blockquote cite {
+    color: $medGray;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+}
+
+blockquote cite:before {
+    content: "\2014 \2009";
+}
+
+/*
+blockquote {
+margin: 1.8em .8em;
+padding: 0.1em 1em;
+background-color: $xlightGray;
+font-family: $normal;
+}
+ */
 
 img {
     max-width: 100%;
@@ -340,13 +374,6 @@ nav {
         font-weight: 700;
     }
 
-    blockquote {
-        margin: 1.8em .8em;
-        border-left: 1px dotted $gray;
-        padding: 0.1em 1em;
-        color: $gray;
-    }
-
     .eyebrow {
         font-size: 12px;
         line-height: 30px;
@@ -440,6 +467,7 @@ footer {
         }
     }
 }
+
 
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
