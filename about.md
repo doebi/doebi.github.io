@@ -4,7 +4,7 @@ title: "Christoph Döberl"
 about: true
 ---
 
-**TODO:** some text
+Open-minded tinkerer and developer with a broad range of interests.
 
 See my [projects](/projects/) to get an idea of what I am doing.
 
