@@ -12,7 +12,7 @@ projects: true
 
         <div class="entry">
             <a href="{{ site.baseurl }}{{ post.url }}" class="small-link">
-                <img src="{{ post.image }}" />
+                <img alt="post.title" src="{{ post.image }}" />
             </a>
         </div>
 
