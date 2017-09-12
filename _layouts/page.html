@@ -14,8 +14,8 @@ layout: default
     {{ content }}
     <div class="gallery clearfix">
     {% for img in page.images %}
-    <a data-lightbox="gallery" href="/photos/{{ page.title | slugify }}/{{ img }}.png">
-    <img src="/photos/{{ page.title | slugify }}/thumbnails/{{ img }}.png" />
+    <a data-lightbox="gallery" href="/photos/{{ page.title | slugify }}/{{ img }}">
+    <img src="/photos/{{ page.title | slugify }}/thumbnails/{{ img }}" />
     </a>
     {% endfor %}
     </div>
