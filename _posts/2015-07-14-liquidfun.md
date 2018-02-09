@@ -14,6 +14,10 @@ github: "doebi/liquidfun.js"
 > <cite>Google</cite>
 -->
 
+You can see and interact with a live demo below.
+
+<pre>click to spawn a dynamic box; ctrl+click to spawn a static box; shift+click to spawn particles</pre>
+
 <div class="video-wrapper">
-    <iframe class="video" src="//doeberl.at/pixi-particles"></iframe>
+    <iframe class="video" src="//doeberl.at/liquidfun.js-demo"></iframe>
 </div>
