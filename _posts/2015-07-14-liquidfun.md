@@ -14,10 +14,14 @@ github: "doebi/liquidfun.js"
 > <cite>Google</cite>
 -->
 
-You can see and interact with a live demo below.
+You can find and interact with a live demo under following link:
+
+<a target="_blank" href="/liquidfun.js-demo">LIVE DEMO</a>
 
 <pre>click to spawn a dynamic box; ctrl+click to spawn a static box; shift+click to spawn particles</pre>
 
+<!--
 <div class="video-wrapper">
     <iframe class="video" src="/liquidfun.js-demo"></iframe>
 </div>
+-->

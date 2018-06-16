@@ -10,13 +10,10 @@ See my [projects](/projects/) to get an idea of what I am doing.
 
 ### Work Experience
 
+* [**IXOLIT GmbH**](https://www.ixolit.com), Wien
 * [**Diaku Ltd**](https://diaku.com), London
 * [**IXOLIT New Media Development GmbH**](https://www.ixolit.com), Wien
 * [**SIWA Online GmbH**](https://www.siwa.at), Hagenberg
-* [**PAUAT Architekten**](http://pau.at), Wels
-* [**Architekturbüro Lassy**](http://lassy.at), Leonding
-* [**Kapl Bau GmbH**](http://kaplbau.at), Bad Leonfelden
-* [**Rabmer Bau Gruppe**](http://rabmer.at), Altenberg
 
 ### Education
 
