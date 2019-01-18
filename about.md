@@ -8,11 +8,12 @@ Open-minded tinkerer and developer with a broad range of interests.
 
 See my [projects](/projects/) to get an idea of what I am doing.
 
-### Work Experience
+### Work
 
-* [**IXOLIT GmbH**](https://www.ixolit.com), Wien
+* [**GRAND GARAGE**](https://www.grandgarage.eu), Linz
+* [**IXOLIT GmbH**](https://www.ixolit.com), Vienna
 * [**Diaku Ltd**](https://diaku.com), London
-* [**IXOLIT New Media Development GmbH**](https://www.ixolit.com), Wien
+* [**IXOLIT New Media Development GmbH**](https://www.ixolit.com), Vienna
 * [**SIWA Online GmbH**](https://www.siwa.at), Hagenberg
 
 ### Education
